@@ -6,7 +6,7 @@ on:
 
 jobs:
   code-cover-gen:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-staging
     env:
       PR: ${{ github.event.pull_request.number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
@@ -24,7 +24,7 @@ jobs:
           fetch-depth: ${{ env.FETCH_DEPTH }}
 
       - name: Set up Bazel cache
-        uses: actions/cache@v3
+        uses: useblacksmith/cache@v4.2
         with:
           path: |
             ~/.cache/bazel

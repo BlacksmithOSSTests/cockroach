@@ -46,6 +46,7 @@ func init() {
 	}
 }
 
+// Test
 // allMaxMinAggregateTypes contains extra types that aren't in types.Scalar that
 // the max/min aggregate functions are defined on. It also excludes REFCURSOR,
 // which isn't supported for max/min.

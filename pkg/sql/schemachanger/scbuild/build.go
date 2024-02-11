@@ -33,6 +33,7 @@ import (
 	"github.com/cockroachdb/redact"
 )
 
+// Test
 // Build constructs a new state from an incumbent state and a statement.
 //
 // The function takes an AST for a DDL statement and constructs targets

@@ -36,6 +36,7 @@ import (
 )
 
 // BinaryOp evaluates a tree.BinaryEvalOp.
+// Test
 func BinaryOp(
 	ctx context.Context, evalCtx *Context, op tree.BinaryEvalOp, left, right tree.Datum,
 ) (tree.Datum, error) {
