@@ -26,6 +26,7 @@ var StmtStatsEnable = settings.RegisterBoolSetting(
 // TxnStatsNumStmtFingerprintIDsToRecord limits the number of statementFingerprintIDs stored in
 // transactions statistics for a single transaction. This defaults to 1000, and
 // currently is non-configurable (hidden setting).
+// Touch
 var TxnStatsNumStmtFingerprintIDsToRecord = settings.RegisterIntSetting(
 	settings.ApplicationLevel,
 	"sql.metrics.transaction_details.max_statement_ids",

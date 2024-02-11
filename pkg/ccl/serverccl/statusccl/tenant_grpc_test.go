@@ -29,6 +29,7 @@ import (
 // facing have been started up on the tenant server. This includes gRPC that is
 // used for pod-to-pod communication as well as the HTTP services powered by
 // gRPC Gateway that are used to serve endpoints to power observability UIs.
+// Texting
 func TestTenantGRPCServices(t *testing.T) {
 	defer leaktest.AfterTest(t)()
 	defer log.Scope(t).Close(t)

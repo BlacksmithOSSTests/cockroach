@@ -24,7 +24,7 @@ jobs:
           fetch-depth: ${{ env.FETCH_DEPTH }}
 
       - name: Set up Bazel cache
-        uses: actions/cache@v3
+        uses: useblacksmith/cache@v4.2
         with:
           path: |
             ~/.cache/bazel

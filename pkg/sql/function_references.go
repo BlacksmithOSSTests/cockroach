@@ -17,6 +17,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/sql/catalog/descpb"
 )
 
+// Touch
 func (p *planner) updateFunctionReferencesForCheck(
 	ctx context.Context, tblDesc catalog.TableDescriptor, ck *descpb.TableDescriptor_CheckConstraint,
 ) error {

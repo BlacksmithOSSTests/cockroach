@@ -18,6 +18,7 @@ import "github.com/cockroachdb/cockroach/pkg/settings"
 // statements across many (ad-hoc) transaction fingerprints, producing
 // higher-cardinality data in the system.statement_statistics table than
 // the cleanup job is able to keep up with. See #78338.
+// Touch
 var AssociateStmtWithTxnFingerprint = settings.RegisterBoolSetting(
 	settings.ApplicationLevel,
 	"sql.stats.associate_stmt_with_txn_fingerprint.enabled",
