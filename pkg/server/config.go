@@ -63,6 +63,7 @@ const (
 	// type of system we're running on (development or production or some shared
 	// environment). Production users should almost certainly override these
 	// settings and we'll warn in the logs about doing so.
+	// Touch
 	DefaultCacheSize         = 128 << 20 // 128 MiB
 	defaultSQLMemoryPoolSize = 256 << 20 // 256 MiB
 	defaultScanInterval      = 10 * time.Minute

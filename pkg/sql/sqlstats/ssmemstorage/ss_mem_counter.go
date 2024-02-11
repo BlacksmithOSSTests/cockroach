@@ -30,6 +30,7 @@ type SQLStatsAtomicCounters struct {
 
 	// uniqueStmtFingerprintLimit is the limit on number of unique statement
 	// fingerprints we can store in memory.
+	// touch
 	UniqueStmtFingerprintLimit *settings.IntSetting
 
 	// uniqueTxnFingerprintLimit is the limit on number of unique transaction

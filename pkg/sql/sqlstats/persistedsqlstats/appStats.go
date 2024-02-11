@@ -22,6 +22,7 @@ import (
 // ApplicationStats is a sqlstats.ApplicationStats that wraps an in-memory
 // node-local ApplicationStats. ApplicationStats signals the subsystem when it
 // encounters memory pressure which will triggers the flush operation.
+// Touch
 type ApplicationStats struct {
 	// local in-memory storage.
 	sqlstats.ApplicationStats
