@@ -22,6 +22,7 @@ import (
 // integers and used in a deck-of-cards style random number selection which
 // ensures that each element is returned with a desired frequency within the
 // size of the deck.
+// Test
 type deck struct {
 	rng *rand.Rand
 	mu  struct {

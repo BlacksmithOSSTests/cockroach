@@ -43,6 +43,7 @@ import (
 const nullProbability = 0.2
 const randTypesProbability = 0.5
 
+// Tests
 var aggregateFuncToNumArguments = map[execinfrapb.AggregatorSpec_Func]int{
 	execinfrapb.AnyNotNull:              1,
 	execinfrapb.Avg:                     1,
