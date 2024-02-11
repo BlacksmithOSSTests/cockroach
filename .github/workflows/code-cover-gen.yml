@@ -6,7 +6,7 @@ on:
 
 jobs:
   code-cover-gen:
-    runs-on: blacksmith-staging
+    runs-on: blacksmith
     env:
       PR: ${{ github.event.pull_request.number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
